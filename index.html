@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Escuela</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f4f6fb;
+      color: #222;
+    }
+
+    header {
+      background: #4b2aad;
+      color: white;
+      padding: 25px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 32px;
+    }
+
+    header p {
+      margin-bottom: 0;
+    }
+
+    .contenedor {
+      max-width: 1000px;
+      margin: 30px auto;
+      padding: 20px;
+    }
+
+    .bienvenida {
+      background: white;
+      padding: 25px;
+      border-radius: 15px;
+      text-align: center;
+      box-shadow: 0 3px 10px #ccc;
+    }
+
+    .cursos {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+      margin-top: 25px;
+    }
+
+    .curso {
+      background: white;
+      padding: 25px;
+      border-radius: 15px;
+      text-align: center;
+      box-shadow: 0 3px 10px #ccc;
+    }
+
+    .curso h2 {
+      color: #4b2aad;
+    }
+
+    button {
+      background: #4b2aad;
+      color: white;
+      border: none;
+      padding: 12px 20px;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+    button:hover {
+      background: #351d83;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>Mi Escuela</h1>
+    <p>Aprende, estudia y alcanza tus metas</p>
+  </header>
+
+  <div class="contenedor">
+
+    <div class="bienvenida">
+      <h2>¡Bienvenido a tu escuela!</h2>
+      <p>Elige una materia para comenzar a estudiar.</p>
+    </div>
+
+    <div class="cursos">
+
+      <div class="curso">
+        <h2>📐 Matemáticas</h2>
+        <p>Aprende matemáticas paso a paso.</p>
+        <button>Entrar</button>
+      </div>
+
+      <div class="curso">
+        <h2>📖 Historia</h2>
+        <p>Conoce la historia y sus acontecimientos.</p>
+        <button>Entrar</button>
+      </div>
+
+      <div class="curso">
+        <h2>🔬 Ciencias</h2>
+        <p>Descubre cómo funciona el mundo.</p>
+        <button>Entrar</button>
+      </div>
+
+      <div class="curso">
+        <h2>🌎 Geografía</h2>
+        <p>Explora países, mapas y lugares.</p>
+        <button>Entrar</button>
+      </div>
+
+    </div>
+
+  </div>
+
+</body>
+</html>
